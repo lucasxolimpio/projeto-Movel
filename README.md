@@ -49,7 +49,7 @@ Recurso Nativo: O sistema agendada uma Notificação Push para a data e hora da 
 
 ## 2. Arquitetura e Requisitos
 
-Requisito                 |    Tecnologia                         |    Observação   
+|Requisito                |    Tecnologia                         |    Observação                                                 |
 |-------------------------|---------------------------------------|---------------------------------------------------------------|
 |Plataforma               |    React Native + Expo                |    Desenvolvimento Cross-Platform.                            |
 |Gerenciador de Estado    |    React Hooks (useState, useEffect)  |    Para gerenciamento local e de dados.                       |
@@ -80,22 +80,16 @@ Coleção Principal: Os dados são armazenados na coleção privada do usuário:
 /artifacts/{__app_id}/users/{userId}/plants
 
  Estrutura de um Documento 'Planta':
-______________________________________________________________________________________________________
-                   |                      |
- Campo             |     Tipo             |    Descrição
-___________________|______________________|___________________________________________________________
-id                 |   string (doc ID)    |   Identificador único.
--------------------|----------------------|-----------------------------------------------------------
-name               |   string             |   Nome da planta (ex: Jibóia).
--------------------|----------------------|-----------------------------------------------------------
-species            |   string             |   Nome da espécie (opcional).
--------------------|----------------------|-----------------------------------------------------------
-lastWatered        |   timestamp          |   Data da última rega.
--------------------|----------------------|-----------------------------------------------------------
-nextWatering       |   timestamp          |   Próxima data de rega calculada (para Notificação).
--------------------|----------------------|-----------------------------------------------------------
-waterIntervalDays  |   number             |   Intervalo em dias (ex: 7).
-___________________|______________________|___________________________________________________________
+
+| Campo             |     Tipo             |    Descrição                                             |
+|-------------------|----------------------|----------------------------------------------------------|
+|id                 |   string (doc ID)    |   Identificador único.                                   |
+|name               |   string             |   Nome da planta (ex: Jibóia).                           | 
+|species            |   string             |   Nome da espécie (opcional).                            |
+|lastWatered        |   timestamp          |   Data da última rega.                                   | 
+|nextWatering       |   timestamp          |   Próxima data de rega calculada (para Notificação).     |
+|waterIntervalDays  |   number             |   Intervalo em dias (ex: 7).                             | 
+
  
 Acesso: O projeto utiliza o __initial_auth_token e __firebase_config para autenticar o usuário anonimamente e garantir o acesso seguro aos dados no Firestore, conforme as diretrizes acadêmicas.
 
