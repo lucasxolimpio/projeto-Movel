@@ -1,4 +1,4 @@
-###Projeto Móvel Green Keeper: Diário de Plantas e Lembretes de Rega
+### Projeto Móvel Green Keeper: Diário de Plantas e Lembretes de Rega
 
 Projeto da disciplina de Programação de Dispositivos Móveis com React Native + Expo (foco em Android).
 
@@ -6,13 +6,13 @@ Orientador: Prof. Luiz Gustavo Turatti
 
 A solução compartilhada neste repositório consiste no desenvolvimento de uma plataforma móvel para auxiliar cuidadores de plantas domésticas a gerenciar ciclos de rega e combater o esquecimento através do uso de notificações programadas (recurso nativo). Implementa as operações CRUD (Create, Read, Update, Delete) com persistência em tempo real.
 
-#Equipe do projeto
+# Equipe do projeto
 
 202302380999 - Lucas Olimpio Jardim
 202303691289 - Ellen de Souza Ribeiro Jardim
 
 
-#Sumário
+# Sumário
 
 1. Visão Geral e Problemática
 
