@@ -169,4 +169,3 @@ npx expo start
 
 Execute no Dispositivo Móvel:
 Use o aplicativo Expo Go para escanear o código QR que aparecerá no terminal ou no navegador para carregar o aplicativo em seu celular.
-![Minha imagem](ação-de-regar)
