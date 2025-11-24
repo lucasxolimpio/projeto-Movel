@@ -49,18 +49,19 @@ Recurso Nativo: O sistema agendada uma Notificação Push para a data e hora da 
 
 ## 2. Arquitetura e Requisitos
 ___________________________________________________________________________________________________________________________________
-                         |                                       |
- Requisito               |     Tecnologia                        |     Observação  _________________________|_______________________________________|_________________________________________________________________
+
+Requisito                |    Tecnologia                         |    Observação   
+
 Plataforma               |    React Native + Expo                |    Desenvolvimento Cross-Platform.
--------------------------|---------------------------------------|------------------------------------------------------------------
+
 Gerenciador de Estado    |    React Hooks (useState, useEffect)  |    Para gerenciamento local e de dados.
--------------------------|---------------------------------------|------------------------------------------------------------------
+
 Navegação                |    React Navigation                   |    Navegação em formato Stack (Home, Detalhes, Cadastro).
--------------------------|---------------------------------------|------------------------------------------------------------------
+
 Persistência / Backend   |    Firebase Firestore                 |    Base de Dados NoSQL e Sincronização em Tempo Real (BaaS).
--------------------------|---------------------------------------|------------------------------------------------------------------
+
 Recurso Nativo           |    expo-notifications                 |    Implementação do lembrete de rega.
--------------------------|---------------------------------------|------------------------------------------------------------------
+
 
 🔧 Dependências Essenciais:
 
