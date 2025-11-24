@@ -1,4 +1,4 @@
-### Projeto Móvel Green Keeper: Diário de Plantas e Lembretes de Rega
+## Projeto Móvel Green Keeper: Diário de Plantas e Lembretes de Rega
 
 Projeto da disciplina de Programação de Dispositivos Móveis com React Native + Expo (foco em Android).
 
