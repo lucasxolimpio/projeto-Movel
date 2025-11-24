@@ -104,13 +104,13 @@ A estrutura de pastas segue as melhores práticas para modularizar o desenvolvim
   DiárioDePlantas/
   
    ├── src/
-       |
+       
    │   ├── components/       # Elementos reutilizáveis (Cards, Inputs)
-       |
+       
    │   ├── screens/          # As telas da sua navegação (Home, Details, NewPlant)
-       |
+       
    │   ├── services/         # Lógica de negócio: firebase.js e notifications.js
-       |
+       
    │   └── navigation/       # Configuração do React Navigation
    
    ├── App.js                # Componente principal que gerencia a navegação
