@@ -9,6 +9,7 @@ A solução compartilhada neste repositório consiste no desenvolvimento de uma 
 # Equipe do projeto
 
 202302380999 - Lucas Olimpio Jardim
+
 202303691289 - Ellen de Souza Ribeiro Jardim
 
 
