@@ -143,7 +143,7 @@ cd DiárioDePlantas
 Instalar as Dependências do Projeto:
 
 npm install
-# OU
+## OU
 yarn install
 
 
